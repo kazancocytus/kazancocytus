@@ -38,7 +38,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=kazancocytus&theme=github_dark&show_icons=true&hide_border=true&hide=commits
+          options: username=kazancocytus&theme=github_dark&show_icons=true&hide_border=true
           path: dist/stats.svg
           token: ${{ secrets.PROFILE_STATS_TOKEN }}
 
